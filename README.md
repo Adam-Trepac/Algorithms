@@ -1,12 +1,15 @@
-### 🧠 Core Algorithms and Data Structures
+# Core Algorithms and Data Structures
 
-This folder contains implementations of foundational computer science concepts, demonstrating logical thinking and efficiency in Python.
+Python implementations of foundational data structures and graph algorithms, written to practise algorithmic thinking and clean, type-annotated code.
 
-**Focus:** Mastering essential data structures and traversal algorithms necessary for understanding complex software systems (like ERPs).
-
-| File Name | Description | Key Concepts |
+| File | What it does | Key concepts |
 | :--- | :--- | :--- |
-| `binary_search_tree.py` | Implementation of a Binary Search Tree (BST) including iterative/recursive search, insertion, and validation. | **Pointers, Recursion, O(h) efficiency.** |
-| `graph_algorithms.py` | Implementation of Breadth-First Search (BFS) and Depth-First Search (DFS) for graph traversal using an Adjacency Matrix. | **Queues (deque), Stack/Recursion, Graph Logic.** |
+| `binary_search_tree.py` | Binary Search Tree with insertion, minimum lookup, recursive and iterative search, and validation of the BST property (via in-order traversal). | Recursion, tree traversal, O(h) search |
+| `graph_algorithms.py` | Breadth-First Search and Depth-First Search on a directed graph stored as an adjacency matrix. BFS records distances and parents (shortest paths in an unweighted graph); DFS records discovery and finishing times. | Queue (`deque`), recursion, graph traversal |
 
----
+## How to Run
+Each file contains a small demo. Requires Python 3:
+```bash
+python binary_search_tree.py
+python graph_algorithms.py
+```
